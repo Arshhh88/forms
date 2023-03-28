@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Registration Form</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<div>
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+        <p>Enter your details below</p>
+        <ul>
+           <li><input type="email" required placeholder="email" value="your_email@gmail.com" name="email" autofocus /></li> <br>
+           <li><input type="number" required placeholder="Password"></li>
+        </ul>
+        <p class="para1">!Type a complex password with 8-20 characters.</p>
+        <ul>
+            <li><input type="number" required placeholder="+20 Phone Number"></li>
+        </ul>
+        </div>
+        <hr>
+        <div>
+            <h3>Enter your profession:</h3>
+            <ul>
+                <li>
+                <input type="radio" name="profession" value="student">Student
+                <input type="radio" name="profession" value="teacher">Teacher
+                <input type="radio" name="profession" value="developer">Developer
+                </li>
+            </ul>
+            Choose the stage if you are (student)
+            <select>
+             <optgroup label="Primay Stage">
+                <option value="First Primary">first primary</option>
+                <option value="Second Primary">second primary</option>
+                <option value="Third Primary">third primary</option>
+                <option value="Fourth Primary">fourth primary</option>
+                <option value="Fifth Primary">fifth primary</option>
+                <option value="Sixth Primary">Sixth Primary</option>
+             </optgroup>
+             <optgroup label="Preparatory Stage">
+                <option value="First Preparatory">first preparatory</option>
+                <option value="Second Preparatory">Second preparatory</option>
+                <option value="Third Preparatory">third preparatory</option>
+             </optgroup>
+             <optgroup label="Secondary Stage">
+                <option value="Frist Secondary">first secondary</option>
+                <option value="Second Secondary">second secondary</option>
+                <option value="Third Secondary">third secondary</option>
+             </optgroup>
+            </select>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li>Enter your Birth date. <input type="date" min="1995-01-01" max="2025-12-31"></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <ul>
+                <li><input type="text" placeholder="Any notes"></li>
+            </ul>
+        </div>
+        <hr>
+        <div>
+            <button type="button" onclick="alert('Validating')">Submit</button>
+            <button type="button">Reset</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

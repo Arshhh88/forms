@@ -1,0 +1,21 @@
+.para1{
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*.container{
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 7px;*/
+    /*margin: 100px;*/
+
+
+li{
+    padding-left: 20px;
+}
+body{
+    padding-left: 30px;
+    padding-right: 30px;
+   /* border: 2px solid black;*/
+    background-color: lightblue;
+}
